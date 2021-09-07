@@ -1,0 +1,6 @@
+framework module Pods_fled_fledUITests {
+  umbrella header "Pods-fled-fledUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

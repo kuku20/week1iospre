@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93B127C61E1C42FDDE757FCB /* Pods_fled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417B6C53254F89E9D59A1D58 /* Pods_fled.framework */; };
+		952F5FC81924D4B5526850DE /* Pods_fledTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B00748E42C6DCF6470C3CD5 /* Pods_fledTests.framework */; };
 		ADE5041626E3FBBF00C903D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5041526E3FBBF00C903D9 /* AppDelegate.swift */; };
 		ADE5041826E3FBBF00C903D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5041726E3FBBF00C903D9 /* SceneDelegate.swift */; };
 		ADE5041D26E3FBBF00C903D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE5041B26E3FBBF00C903D9 /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		ADE5044626E3FD5F00C903D9 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5044526E3FD5F00C903D9 /* MoviesViewController.swift */; };
 		ADE5044826E40C1500C903D9 /* MovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5044726E40C1500C903D9 /* MovieCellTableViewCell.swift */; };
 		ADE5044B26E4105200C903D9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = ADE5044A26E4105200C903D9 /* AlamofireImage */; };
+		DDFC87BEC891670CBD10C7F2 /* Pods_fled_fledUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CC64A81880BF6A63B3E9B3 /* Pods_fled_fledUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		417B6C53254F89E9D59A1D58 /* Pods_fled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CC64A81880BF6A63B3E9B3 /* Pods_fled_fledUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fled_fledUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B00748E42C6DCF6470C3CD5 /* Pods_fledTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fledTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9597200F511C68186AED3A9C /* Pods-fled-fledUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fled-fledUITests.debug.xcconfig"; path = "Target Support Files/Pods-fled-fledUITests/Pods-fled-fledUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9AF9FE5F5D044D01A27B8B6 /* Pods-fled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fled.release.xcconfig"; path = "Target Support Files/Pods-fled/Pods-fled.release.xcconfig"; sourceTree = "<group>"; };
 		ADE5041226E3FBBF00C903D9 /* fled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE5041526E3FBBF00C903D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE5041726E3FBBF00C903D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 		ADE5043926E3FBC000C903D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE5044526E3FD5F00C903D9 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		ADE5044726E40C1500C903D9 /* MovieCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTableViewCell.swift; sourceTree = "<group>"; };
+		B11EAD5254802DB5A9AC47B5 /* Pods-fledTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fledTests.release.xcconfig"; path = "Target Support Files/Pods-fledTests/Pods-fledTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1CA0C17828F3EE21C11AD9A /* Pods-fled-fledUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fled-fledUITests.release.xcconfig"; path = "Target Support Files/Pods-fled-fledUITests/Pods-fled-fledUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF871497BEDFC523CA348A61 /* Pods-fledTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fledTests.debug.xcconfig"; path = "Target Support Files/Pods-fledTests/Pods-fledTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5854E90D9BD1B65C114F82 /* Pods-fled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fled.debug.xcconfig"; path = "Target Support Files/Pods-fled/Pods-fled.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE5044B26E4105200C903D9 /* AlamofireImage in Frameworks */,
+				93B127C61E1C42FDDE757FCB /* Pods_fled.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952F5FC81924D4B5526850DE /* Pods_fledTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFC87BEC891670CBD10C7F2 /* Pods_fled_fledUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DF6603AFEB8AF3697112891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5854E90D9BD1B65C114F82 /* Pods-fled.debug.xcconfig */,
+				A9AF9FE5F5D044D01A27B8B6 /* Pods-fled.release.xcconfig */,
+				9597200F511C68186AED3A9C /* Pods-fled-fledUITests.debug.xcconfig */,
+				B1CA0C17828F3EE21C11AD9A /* Pods-fled-fledUITests.release.xcconfig */,
+				BF871497BEDFC523CA348A61 /* Pods-fledTests.debug.xcconfig */,
+				B11EAD5254802DB5A9AC47B5 /* Pods-fledTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADE5040926E3FBBF00C903D9 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +116,8 @@
 				ADE5042B26E3FBC000C903D9 /* fledTests */,
 				ADE5043626E3FBC000C903D9 /* fledUITests */,
 				ADE5041326E3FBBF00C903D9 /* Products */,
+				2DF6603AFEB8AF3697112891 /* Pods */,
+				CE7C0170B7612888CFC671B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +164,16 @@
 			path = fledUITests;
 			sourceTree = "<group>";
 		};
+		CE7C0170B7612888CFC671B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417B6C53254F89E9D59A1D58 /* Pods_fled.framework */,
+				89CC64A81880BF6A63B3E9B3 /* Pods_fled_fledUITests.framework */,
+				8B00748E42C6DCF6470C3CD5 /* Pods_fledTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE5043C26E3FBC000C903D9 /* Build configuration list for PBXNativeTarget "fled" */;
 			buildPhases = (
+				D0E003F8B065579CB101DA57 /* [CP] Check Pods Manifest.lock */,
 				ADE5040E26E3FBBF00C903D9 /* Sources */,
 				ADE5040F26E3FBBF00C903D9 /* Frameworks */,
 				ADE5041026E3FBBF00C903D9 /* Resources */,
+				12F2918D3D7014E6BFC1FB50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE5043F26E3FBC000C903D9 /* Build configuration list for PBXNativeTarget "fledTests" */;
 			buildPhases = (
+				7EA6157BBC773614D97DC3DC /* [CP] Check Pods Manifest.lock */,
 				ADE5042426E3FBC000C903D9 /* Sources */,
 				ADE5042526E3FBC000C903D9 /* Frameworks */,
 				ADE5042626E3FBC000C903D9 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE5044226E3FBC000C903D9 /* Build configuration list for PBXNativeTarget "fledUITests" */;
 			buildPhases = (
+				6AC10372C9C47D8CC642477F /* [CP] Check Pods Manifest.lock */,
 				ADE5042F26E3FBC000C903D9 /* Sources */,
 				ADE5043026E3FBC000C903D9 /* Frameworks */,
 				ADE5043126E3FBC000C903D9 /* Resources */,
+				DF781489E8F7752CE3CECA95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F2918D3D7014E6BFC1FB50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fled/Pods-fled-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fled/Pods-fled-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fled/Pods-fled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC10372C9C47D8CC642477F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fled-fledUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA6157BBC773614D97DC3DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fledTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E003F8B065579CB101DA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF781489E8F7752CE3CECA95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fled-fledUITests/Pods-fled-fledUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fled-fledUITests/Pods-fled-fledUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fled-fledUITests/Pods-fled-fledUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADE5040E26E3FBBF00C903D9 /* Sources */ = {
@@ -445,6 +594,7 @@
 		};
 		ADE5043D26E3FBC000C903D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5854E90D9BD1B65C114F82 /* Pods-fled.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +614,7 @@
 		};
 		ADE5043E26E3FBC000C903D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AF9FE5F5D044D01A27B8B6 /* Pods-fled.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +634,7 @@
 		};
 		ADE5044026E3FBC000C903D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF871497BEDFC523CA348A61 /* Pods-fledTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +656,7 @@
 		};
 		ADE5044126E3FBC000C903D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11EAD5254802DB5A9AC47B5 /* Pods-fledTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +678,7 @@
 		};
 		ADE5044326E3FBC000C903D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9597200F511C68186AED3A9C /* Pods-fled-fledUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +698,7 @@
 		};
 		ADE5044426E3FBC000C903D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CA0C17828F3EE21C11AD9A /* Pods-fled-fledUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

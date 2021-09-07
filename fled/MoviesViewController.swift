@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 //step 1 add to class UITableViewDataSource, UITableViewDelegate
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
@@ -67,6 +68,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let postePpath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + postePpath)
         
+        cell.posterView.af_setImage(withURL: posterUrl!)
         
         return cell
     }
